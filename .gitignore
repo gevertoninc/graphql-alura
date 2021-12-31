@@ -1,0 +1,8 @@
+# Workspace
+*.code-workspace
+
+# Local history
+.history
+
+# Dependencies
+node_modules

@@ -1,0 +1,24 @@
+{
+  "name": "graphql-alura",
+  "version": "1.0.0",
+  "description": "Alura GraphQL course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e graphql,js,json api/index.js",
+    "start:json-server": "npx json-server --watch api/data/data.json"
+  },
+  "keywords": [
+    "Alura",
+    "course",
+    "GraphQL"
+  ],
+  "author": "Geverton",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.4.0",
+    "apollo-server": "^3.5.0",
+    "graphql": "^15.8.0",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.15"
+  }
+}
